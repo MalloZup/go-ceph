@@ -50,7 +50,7 @@ func (c *Conn) Connect() error {
 		return RadosError(int(ret))
 	}
 	c.connected = true
-        return nil
+	return nil
 }
 
 // Shutdown disconnects from the cluster.
