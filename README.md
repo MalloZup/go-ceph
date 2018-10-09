@@ -7,7 +7,15 @@
     go get github.com/ceph/go-ceph
 
 The native RADOS library and development headers are expected to be installed.
-(librados-devel, libcephfs-devel and librbd-devel)
+
+##### RPMs based distros:
+
+If you run a RPMs based distro (centos/fedora/openSUSE)
+
+install this rpms in order to get `go-ceph` up and running! 
+
+`librados-devel, libcephfs-devel and librbd-devel`
+
 ## Documentation
 
 Detailed documentation is available at
