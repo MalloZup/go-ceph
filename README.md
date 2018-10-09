@@ -8,6 +8,11 @@
 
 The native RADOS library and development headers are expected to be installed.
 
+#### Rpms based distros:
+
+In order to use this library you should install: 
+`librados-devel librbd-devel`
+
 ## Documentation
 
 Detailed documentation is available at
